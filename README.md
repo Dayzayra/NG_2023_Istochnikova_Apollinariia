@@ -1,1 +1,0 @@
-# NG_2023_Istochnikova_Apollinariia
