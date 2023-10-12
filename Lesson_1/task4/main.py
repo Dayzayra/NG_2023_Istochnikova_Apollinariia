@@ -1,11 +1,10 @@
 import math
-print("Доступные операции:\n 1. Сложение (+)\n 2. Вычитание (-)\n 3. Умножение (*)\n 4. Деление (/)\n 5. Извлечение корня (корень)\n 6. Возведение в степень (степень)")
-
-choice = input("Выберите операцию (введите соответствующую цифру): ")
+print("Available operations:\n 1. Addition (+)\n 2. Subtraction (-)\n 3. Multiplication (*)\n 4. Division (/)\n 5. Extract root (root)\n 6. Raise to degree (degree)")
+choice = input("Select operation (enter the appropriate number): ")
 
 if choice in ('1', '2', '3', '4', '5', '6'):
-    num1 = float(input("Введите первое число: "))
-    num2 = float(input("Введите второе число: "))
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
 
     if choice == '1':
         result = num1 + num2
@@ -21,11 +20,11 @@ if choice in ('1', '2', '3', '4', '5', '6'):
         operation = "/"
     elif choice == '5':
         result = math.sqrt(num1)
-        operation = "корень"
+        operation = "root"
     elif choice == '6':
         result = num1 ** num2
-        operation = "степень"
+        operation = "degree"
 
-    print(f"Результат: {num1} {operation} {num2} = {result}")
+    print(f"Result: {num1} {operation} {num2} = {result}")
 else:
-    print("Неправильный выбор операции.")
+    print("Wrong choice of operation.")
