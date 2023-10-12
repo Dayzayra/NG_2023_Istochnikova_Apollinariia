@@ -1,5 +1,5 @@
-name = input("Enter your name: ")
-surname = input("Enter you surname: ")
+name = ("Apollinariia")
+surname = ("Istochnikova")
 
-print ("Name: ", name)
-print ("Surname: ", surname)
+print (name)
+print (surname)
