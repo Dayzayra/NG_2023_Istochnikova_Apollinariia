@@ -1,12 +1,12 @@
-choice = input("Выберите способ конвертации:\n1. Из Цельсия в Фаренгейты\n2. Из Фаренгейтов в Цельсии\n Ваш выбор (1/2): ")
+choice = input("Select conversion method:\n1. From Celsius to Fahrenheit\n2. From Fahrenheit to Celsius\nYour choice (1/2): ")
 
 if choice == '1':
-    celsius = float(input("Введите температуру в градусах Цельсия: "))
+    celsius = float(input("Enter temperature in degrees Celsius:"))
     fahrenheit = (celsius * 9/5) + 32
-    print(f"{celsius} градусов Цельсия равны {fahrenheit} градусам Фаренгейта.")
+    print(f"{celsius} degrees Celsius are equal to {fahrenheit} degrees Fahrenheit.")
 elif choice == '2':
-    fahrenheit = float(input("Введите температуру в градусах Фаренгейта: "))
+    fahrenheit = float(input("Enter temperature in degrees Fahrenheit: "))
     celsius = (fahrenheit - 32) * 5/9
-    print(f"{fahrenheit} градусов Фаренгейта равны {celsius} градусам Цельсия.")
+    print(f"{fahrenheit} degrees Fahrenheit equals {celsius} degrees Celsius.")
 else:
-    print("Неверный выбор. Пожалуйста, выберите 1 или 2.")
+    print("Wrong choice. Please select 1 or 2.")
