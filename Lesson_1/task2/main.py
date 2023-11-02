@@ -1,6 +1,6 @@
-print("Введите два числа, что бы узнать их сумму: ")
-first_number = int(input("Первое число: "))
-second_number = int(input("Второе число: "))
+print("Enter two numbers to find out their sum:")
+first_number = int(input("First number: "))
+second_number = int(input("Second number: "))
 sum = first_number + second_number
 
-print("Сумма чисел: ",sum)
+print("Sum of numbers: ",sum)
